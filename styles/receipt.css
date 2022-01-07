@@ -1,0 +1,164 @@
+img {
+  max-width: 100%;
+}
+
+body {
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-size-adjust: none;
+  width: 100% !important;
+  height: 100%;
+  line-height: 1.6em;
+}
+
+body {
+  background-color: #f6f6f6;
+  color: #333;
+}
+
+.email-content {
+  width: 70%;
+  border: 1px solid #d7d7d7;
+  min-height: 200px;
+  background-color: #fbf8ff !important;
+  margin: auto;
+  border-radius: 10px;
+}
+
+@media only screen and (max-width: 640px) {
+  body {
+    padding: 0 !important;
+  }
+
+  h1 {
+    font-weight: 800 !important;
+    margin: 20px 0 5px !important;
+  }
+
+  h2 {
+    font-weight: 800 !important;
+    margin: 20px 0 5px !important;
+  }
+
+  h3 {
+    font-weight: 800 !important;
+    margin: 20px 0 5px !important;
+  }
+
+  h4 {
+    font-weight: 800 !important;
+    margin: 20px 0 5px !important;
+  }
+
+  h1 {
+    font-size: 22px !important;
+  }
+
+  h2 {
+    font-size: 18px !important;
+  }
+
+  h3 {
+    font-size: 16px !important;
+  }
+
+  .container {
+    padding: 0 !important;
+    width: 100% !important;
+  }
+
+  .content {
+    padding: 0 !important;
+  }
+
+  .content-wrap {
+    padding: 10px !important;
+  }
+
+  .invoice {
+    width: 100% !important;
+  }
+
+  .email-content {
+    width: 100%;
+  }
+
+  .email-header .logo {
+    width: 100px;
+  }
+
+  .list-group,
+  .center-wrapper {
+    width: 100%;
+  }
+
+  .card-wrapper {
+    flex-direction: column;
+  }
+}
+
+.email-header {
+  background: #773c9f;
+  min-height: 200px;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  border-radius: 10px;
+  border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 0px;
+}
+
+.email-header .logo {
+  width: 100px;
+}
+
+.list-group,
+.center-wrapper {
+  width: 70%;
+  margin: auto;
+  padding: 20px;
+}
+
+.list-item {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-size: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.list-item.total {
+  border-top: 1px solid #eee;
+  border-bottom: 1px solid #eee;
+  margin-top: 20px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.center-wrapper {
+  padding: 5px;
+}
+
+.card-wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.card {
+  border-radius: 5px;
+  box-shadow: 0 1rem 3rem rgb(0 0 0 / 18%) !important;
+  padding: 10px;
+  min-width: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 10px;
+}
+
+.my {
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
